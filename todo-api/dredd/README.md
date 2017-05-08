@@ -1,8 +1,8 @@
-### dreddの実行方法
+### dreddの実行方法(詳細はpackage.jsonを参照)
 
 1. dreddのインストール
 ```
-$ npm install -g dredd
+$ npm install
 ```
 
 2. サンプルアプリケーションを実行しておく(sbtが必要)
@@ -12,14 +12,12 @@ $ sbt run
 ```
 
 3. テストを実行
-  - API blueprint
-    ```
-    $ cd api-blueprint
-    $ dredd
-    ```
+- API blueprint
+  ```
+  $ npm test
+  ```
 
-  - Swagger
-    ```
-    $ cd swagger
-    $ dredd
-    ```
+- Swagger
+  ```
+  $ npm run test:swagger
+  ```

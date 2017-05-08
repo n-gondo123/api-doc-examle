@@ -34,7 +34,7 @@ HOST: http://localhost:9000
 
 # Data Structures
 
-## Todo (object)
+## Todo
 + id: 1 (number, required) - todo ID
 + title: タイトル (string, required) - タイトル
 + description: 説明 (string, required) - 説明
@@ -49,6 +49,6 @@ HOST: http://localhost:9000
 + description: 説明 (string, required) - 説明
 + isFinished: true (boolean, required) - 終了したかどうか
 
-## TodoListResponse (object)
+## TodoListResponse
 + total: 2 (number, required) - トータル件数
-+ list (array[Todo], required) - Todoリスト
++ list (array[Todo], required, fixed-type) - Todoリスト

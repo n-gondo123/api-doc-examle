@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api documentation sample project",
+  "main": "index.js",
+  "devDependencies": {
+    "aglio": "^2.3.0"
+  },
+  "scripts": {
+    "start": "./node_modules/aglio/bin/aglio.js --theme-full-width -i ./todo-api.md -s -p 3001",
+    "publish": "./node_modules/aglio/bin/aglio.js --theme-full-width -i ./todo-api.md -o todo-api.html"
+  },
+  "author": "",
+  "license": "ISC"
+}

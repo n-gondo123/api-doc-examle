@@ -1,5 +1,14 @@
+### aglioの使い方(詳細はpackage.jsonを参照)
+```
+$ npm install
+```
+
+### aglioをライブリロードしながら編集する(localhost:3001で確認)
+```
+$ npm start
+```
+
 ### aglioでのHTML出力方法
 ```
-$ npm install -g aglio
-$ aglio --theme-full-width -i ./todo-api.md -o todo-api.html
+$ npm run aglio:publish
 ```
